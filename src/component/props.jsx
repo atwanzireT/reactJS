@@ -1,8 +1,12 @@
 import React from 'react';
 
+
 function Welcome(props){
-    return <h1>Welcome, {props.name}</h1>;
-}
+    return (
+    <p>Welcome Big, {props.name}</p>
+    );
+};
+
 function Props() {
     return ( 
         <div>
@@ -10,7 +14,7 @@ function Props() {
                 <h1>Props</h1>
             </div>
             <div>
-               <Welcome {name = "Fedora"}/> 
+               <Welcome name="Fedora"/> 
             </div>
         </div>
      );
