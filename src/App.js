@@ -4,6 +4,8 @@ import Intro from './component/intro';
 import Props from './component/props';
 import Color from './component/state';
 import Form from './component/form';
+import Calculator from './component/liftingUp';
+
 
 function App() {
   return (
